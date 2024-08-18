@@ -1,0 +1,37 @@
+PHONE BOOK MANAGEMENT APPLICATION v1.0
+
+This txt file is to describe the application and provide necessary instructions for new users. It also includes technical details from the aspect of developers.
+
+-------------------------------------------------------------
+
+📄 User Instructions
+
+This is a simple application for phone book management. Users can perform operations related to the phone book such as viewing, adding, searching, updating, and deleting contacts. Users can submit operations by entering specific number. 
+
+
+📃 Technical Details
+
+This is a command-line application based on Python. The significant classes of it are as below:
+
+Contact (class for contact entity)
+PhoneBook (class for users to interact with the application)
+Log (class for log entity)
+
+The significant functions are in PhoneBook class. They are as below:
+
+create_contact()
+· create_contact_individually()
+· create_contacts_by_batch()
+validate_phone_number()
+view_contacts()
+search_contact()
+· search_contact_by_name()
+· search_contact_by_phone_number()
+· search_contact_by_period()
+update_contact()
+delete_contact()
+view_logs()
+
+The main data structure for data storage is list, such as the list for contacts and the list for logs.
+
+More detailed information of the code can be referenced in docstrings and comments in the project files.
